@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-export class TodoPage {
+class TodoPage {
     navigate() {
         cy.visit('http://todomvc-app-for-testing.surge.sh/')
     }
@@ -47,3 +47,5 @@ export class TodoPage {
         label.should(`${shouldBeToggled ? '' : 'not.'}be.checked`)
     }
 }
+
+export default TodoPage
