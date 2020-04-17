@@ -1,6 +1,8 @@
 import {TodoPage} from "../page_objects/todo-page";
+import {HomePage} from "../page_objects/home-page";
 
 
+let HomePage = new HomePage()
 let toDoPage = new TodoPage()
 
 describe('todo actions', () => {
