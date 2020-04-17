@@ -1,4 +1,4 @@
-import TodoPage from "../page_objects/todo-page";
+import {TodoPage} from "../page_objects/todo-page";
 
 
 let toDoPage = new TodoPage()
