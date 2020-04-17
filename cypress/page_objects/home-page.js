@@ -48,4 +48,4 @@ class HomePage {
     }
 }
 
-module.exports.HomePage = HomePage
+exports.HomePage = HomePage

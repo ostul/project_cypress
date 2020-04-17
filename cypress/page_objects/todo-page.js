@@ -48,5 +48,6 @@ class TodoPage {
     }
 }
 
-module.exports.TodoPage = TodoPage
+exports.TodoPage = TodoPage
+
 // export default TodoPage
