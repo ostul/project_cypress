@@ -1,7 +1,6 @@
-import {TodoPage} from "../page_objects/todo-page";
+let app = require('../../main')
 
-
-let toDoPage = new TodoPage()
+let toDoPage = new app.TodoPage()
 
 
 describe('todo actions', () => {
