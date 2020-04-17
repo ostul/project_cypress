@@ -7,8 +7,9 @@
     "url": "git+https://github.com/ostul/project_cypress.git"
   },
   "exports": {
-    "./controllers": "./cypress/page_obkects/todo-page.js"
+    "import": "./cypress/page_objects/todo-page.js"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "bugs": {
