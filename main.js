@@ -4,4 +4,4 @@ function todoPage() {
     return TodoPage
 }
 
-exports.todoPage = todoPage
+module.exports.todoPage = todoPage
