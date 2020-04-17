@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/ostul/project_cypress.git"
   },
+  "exports": {
+    "./controllers": "./cypress/page_obkects/todo-page.js"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
