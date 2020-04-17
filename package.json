@@ -9,7 +9,7 @@
   "exports": {
     "import": "./cypress/page_objects/todo-page.js"
   },
-  "main": "main.js",
+  "main": "main.cjs",
   "type": "module",
   "author": "",
   "license": "ISC",
