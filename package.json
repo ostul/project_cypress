@@ -2,21 +2,9 @@
   "name": "project_cypress",
   "version": "1.0.1",
   "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ostul/project_cypress.git"
-  },
-  "exports": {
-    "import": "./cypress/page_objects/todo-page.js"
-  },
-  "main": "main.cjs",
-  "type": "module",
+  "main": "main.js",
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ostul/project_cypress/issues"
-  },
-  "homepage": "https://github.com/ostul/project_cypress#readme",
   "dependencies": {
     "cypress": "^4.4.0"
   }
