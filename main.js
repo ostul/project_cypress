@@ -1,10 +1,3 @@
-import TodoPage from "./cypress/page_objects/todo-page";
+let TodoPage = require("./cypress/page_objects/todo-page")
 
-class Test {
-    print() {
-        console.log('Hello')
-    }
-}
-
-exports.TodoPage = TodoPage
-exports.Test = Test
+exports.TodoPage = TodoPage.TodoPage
